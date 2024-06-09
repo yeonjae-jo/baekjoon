@@ -1,11 +1,11 @@
 score = int(input())
-if 90 <= score <= 100:
+if score >= 90:
     print("A")
-elif 80 <= score <= 89:
+elif score >= 80:
     print("B")
-elif 70 <= score <= 79:
+elif score >= 70:
     print("C")
-elif 60 <= score <= 69:
+elif score >= 60:
     print("D")
 else:
-    print("F")   
+    print("F")
