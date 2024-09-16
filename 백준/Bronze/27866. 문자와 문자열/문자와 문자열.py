@@ -1,3 +1,4 @@
-s = input();
-i = int(input());
-print(s[i-1])
+letter = list(input())
+idx = int(input())-1
+
+print(letter[idx])
